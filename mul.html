@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+</head>
+<body>
+<h1 id="title">统一建模语言理论测试</h1>
+<section id="detail">
+    <p>考试科目：统一建模语言</p>
+    <p>时间：100分钟</p>
+    <p>得分：</p>
+</section>
+<form role="form">
+    <section id="student-info">
+        <label>班级（必填）：</label><input type="text" required class="grade">
+        <label>学号（必填）：</label><input type="text" required class="sid">
+        <label>姓名（必填）：</label><input type="text" required class="name">
+    </section>
+    <section class="fill">
+        <p class="fill-title">一.填空题（每5分，共20分）</p>
+        <div class="fill-question">
+            <p>1.UML的中文全称是：</p>
+            <input type="text">
+            <p>2.对象最突出的特征是：</p>
+            <input type="text"> <input type="text"> <input type="text">
+        </div>
+    </section>
+    <section class="fill">
+        <p class="fill-title">二.选择题（每题10分，共20分）</p>
+        <div class="fill-question choose-question">
+            <label>1.UML与软件工程的关系是：</label>
+            <p><input type="radio" name="one">(A)UML就是软件工程</p>
+            <p><input type="radio" name="one">(B)UML参加到软件工程中软件的几个阶段</p>
+            <p><input type="radio" name="one">(C)UML与软件工程无关</p>
+            <p><input type="radio" name="one">(D)UML是软件工程的一部分</p>
+            <p>2.Java语言支持：</p>
+            <p><input type="radio" name="two">(A)单继承</p>
+            <p><input type="radio" name="two">(B)多继承</p>
+            <p><input type="radio" name="two">(C)单继承和多继承都支持</p>
+            <p><input type="radio" name="two">(D)单继承和多继承都不支持</p>
+        </div>
+    </section>
+    <section class="fill">
+        <p class="fill-title">三.多项选择题（每题10分，共20分）</p>
+        <div class="fill-question">
+            <p>1.用例的粒度分为以下哪三种：</p>
+            <p><input type="checkbox" name="one">(A)概述级</p>
+            <p><input type="checkbox" name="one">(B)需求级</p>
+            <p><input type="checkbox" name="one">(C)用户目标级</p>
+            <p><input type="checkbox" name="one">(D)子功能级</p>
+            <p>2.类图由以下哪三部分组成：</p>
+            <p><input type="checkbox" name="two">(A)名称(Name)</p>
+            <p><input type="checkbox" name="two">(B)属性(Attribute)</p>
+            <p><input type="checkbox" name="two">(C)操作(Operation)</p>
+            <p><input type="checkbox" name="two">(D)方法(Function)</p>
+        </div>
+    </section>
+    <section class="fill">
+        <p class="fill-title">四.判断题（每题10分，共20分）</p>
+        <div class="fill-question">
+            <p>1.用例图只是用于和客户交流和沟通的，用于确定需求<input name="first" type="radio"><img src="对勾.png"><input name="first"
+                                                                                                  type="radio"><img
+                    src="错误.png"></p>
+            <p>2.在状态图中，终止状态在一个状态图中允许有任意多个<input name="second" type="radio"><img src="对勾.png"><input name="second"
+                                                                                                    type="radio"><img
+                    src="错误.png"></p>
+        </div>
+    </section>
+    <section class="fill">
+        <p class="fill-title">五.简答题（每题20分，共20分）</p>
+        <div class="fill-question">
+            <p>1.简述什么是模型以及模型的表现形式？</p>
+            <textarea rows="10" class="input-text">
+        </textarea>
+        </div>
+    </section>
+    <button type="submit" class="total btn">计算分数</button>
+</form>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

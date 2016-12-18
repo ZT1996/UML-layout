@@ -1,0 +1,70 @@
+#title {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#detail {
+    width: 90%;
+    border: 1px solid #ccc;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+#detail p {
+    display: inline;
+    margin-right: 180px;
+}
+
+#student-info {
+    width: 90%;
+    height: 70px;
+    margin: 30px auto 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.grade,.sid,.name {
+    margin-right: 60px;
+}
+
+.fill {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 30px auto 0;
+    padding: 0 0 25px 0;
+}
+
+.fill-title {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 10px;
+    background-color: #F5F5F5;
+}
+
+.fill-question {
+    margin-left: 30px;
+}
+
+.choose-question input {
+
+}
+
+.input-text {
+    width: 90%;
+}
+
+.total {
+    color: white;
+    background-color: #428BCA;
+    border:1px solid #428BCA;
+    border-radius: 5px;
+    margin: 20px 0 0 46%;
+    padding: 5px;
+}
